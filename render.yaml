@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: ivasms-bot
+    env: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.0"
+      - key: PORT
+        value: "10000"
+      - key: akiruzzamankhan855@gmail.com
+        sync: false
+      - key: 00000000Aa
+        sync: false
+      - key: 8440319897:AAGIUDQ_c2OxmhN_91BDF-JjihO7fDqi0Xs
+        sync: false
+      - key: -1002945705959
+        sync: false
+    healthCheckPath: /
+    healthCheckInterval: 60
+    healthCheckTimeout: 30
