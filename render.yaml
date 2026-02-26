@@ -8,13 +8,13 @@ services:
         value: "3.11.0"
       - key: PORT
         value: "10000"
-      - key: akiruzzamankhan855@gmail.com
+      - key: IVASMS_EMAIL
         sync: false
-      - key: 00000000Aa
+      - key: IVASMS_PASSWORD
         sync: false
-      - key: 8440319897:AAGIUDQ_c2OxmhN_91BDF-JjihO7fDqi0Xs
+      - key: BOT_TOKEN
         sync: false
-      - key: -1002945705959
+      - key: CHAT_ID
         sync: false
     healthCheckPath: /
     healthCheckInterval: 60
